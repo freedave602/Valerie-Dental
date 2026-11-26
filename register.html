@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patient registration | Valerie Dental Practice, Tema</title>
+<meta name="description" content="Register as a new patient at Valerie Dental Practice.">
+<meta name="theme-color" content="#085041">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header"><div class="wrap bar">
+<a class="brand" href="index.html" aria-label="Valerie Dental Practice home"><img src="images/logo.svg" alt="" width="38" height="38">Valerie Dental</a>
+<button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+<nav id="primary-nav" class="primary-nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="register.html" aria-current="page">Register</a></li><li><a href="portal.html">My Appointments</a></li><li><a href="contact.html">Contact</a></li><li><a class="cta" href="book.html">Book now</a></li><li><a class="staff" href="staff-login.html">Staff</a></li></ul></nav>
+</div></header>
+<main id="main">
+<div class="page-head"><div class="wrap"><ol class="crumbs" aria-label="Breadcrumb"><li><a href="index.html">Home</a></li><li aria-current="page">Patient registration</li></ol><h1>Patient registration</h1><p class=lead>Two minutes, once. Then booking is a tap away.</p></div></div><section><div class="wrap split wide-left"><div class="panel"><div id="formMsg" class="notice" role="alert"></div>
+<form id="registrationForm" novalidate><div class="row two"><div><label for="firstName">First name <span class=req aria-hidden=true>*</span></label><input type="text" id="firstName" name="firstName" required autocomplete="given-name"></div><div><label for="lastName">Last name <span class=req aria-hidden=true>*</span></label><input type="text" id="lastName" name="lastName" required autocomplete="family-name"></div></div>
+<div class="row two"><div><label for="email">Email <span class=req aria-hidden=true>*</span></label><input type="email" id="email" name="email" required autocomplete="email"></div><div><label for="phone">Phone number <span class=req aria-hidden=true>*</span></label><input type="tel" id="phone" name="phone" required autocomplete="tel" pattern="\+?[0-9 ]{{9,15}}"><p class=hint>e.g. 024 400 0111</p></div></div>
+<div class="row two"><div><label for="dob">Date of birth <span class=req aria-hidden=true>*</span></label><input type="date" id="dob" name="dob" required ></div><div><label for="address">Address <span class="req" aria-hidden="true">*</span></label><input id="address" name="address" required autocomplete="street-address" placeholder="Community / area, town"></div></div>
+<div><label for="medicalHistory">Medical history</label><textarea id="medicalHistory" rows="4" placeholder="Medications, allergies or conditions we should know about"></textarea><p class="hint">Optional, but it helps us treat you safely.</p></div>
+<div class="check"><input type="checkbox" id="consent" required><label for="consent">I agree that Valerie Dental may store my details to provide my care. I have read the <a href="privacy.html">privacy notice</a>.</label></div>
+<button class="btn btn-teal" type="submit">Register</button></form></div>
+<aside class="panel teal reveal"><h3>Why we ask</h3><ul class="tick" style="margin-top:1rem"><li>Your dentist sees allergies before treatment</li><li>We can confirm bookings by phone or email</li><li>Your details are stored securely and never sold</li></ul><p style="margin-top:1.4rem">Already registered? <a style="color:var(--amber)" href="book.html">Go to booking</a>.</p></aside></div></section>
+</main>
+<button class="chat-fab" id="chat-fab" aria-label="Open chat assistant" aria-expanded="false" aria-controls="chat">&#128172;</button>
+<aside class="chat" id="chat" aria-label="Chat assistant"><header>Chat with Valerie</header><div class="chat-log" role="log" aria-live="polite"></div>
+<div class="quick"><button type="button">Opening hours</button><button type="button">Prices</button><button type="button">Book a visit</button><button type="button">Leave a message</button></div>
+<form><label class="sr" for="chat-in" style="position:absolute;left:-999px">Your message</label><input id="chat-in" placeholder="Type a question..." autocomplete="off"><button class="btn btn-teal btn-sm" type="submit">Send</button></form></aside>
+<footer><div class="wrap"><div class="cols">
+<div><a class="brand" href="index.html" style="color:#fff"><img src="images/logo.svg" alt="" width="38" height="38">Valerie Dental</a><p style="margin-top:1rem;max-width:34ch">Gentle, modern dental care for families in Tema and greater Accra.</p></div>
+<div><h3>Visit</h3><ul><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Find us</a></li></ul></div>
+<div><h3>Patients</h3><ul><li><a href="register.html">Register</a></li><li><a href="book.html">Book online</a></li><li><a href="portal.html">My appointments</a></li><li><a href="privacy.html">Privacy &amp; your data</a></li></ul></div>
+<div><h3>Contact</h3><ul><li>Harbour Road, Community 1, Tema</li><li><a href="tel:+233244000111">024 400 0111</a></li><li><a href="mailto:hello@valeriadental.example">hello@valeriadental.example</a></li><li><a href="staff-login.html">Staff login</a></li></ul></div>
+</div><div class="legal"><span>&copy; <span class="year">2026</span> Valerie Dental Practice</span><span>Data handled under the Data Protection Act, 2012 (Act 843)</span></div></div></footer>
+<script src="js/app.js"></script>
+<script src="js/forms.js"></script></body></html>

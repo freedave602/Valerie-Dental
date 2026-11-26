@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="Illustration of a healthy tooth with sparkles">
+<circle cx="260" cy="260" r="220" fill="#0F6E56"/><circle cx="260" cy="260" r="160" fill="#085041" stroke="#CFE9DC" stroke-width="2" stroke-dasharray="4 10"/>
+<g transform="translate(100 90) scale(5)"><path d="M32 6c-6 0-9 3-14 3S8 8 8 20c0 8 4 12 5 22 1 8 3 16 7 16 5 0 4-14 12-14s7 14 12 14c4 0 6-8 7-16 1-10 5-14 5-22 0-12-6-11-10-11S38 6 32 6z" fill="#FFFDF8"/><path d="M20 22c2-5 7-6 10-5" stroke="#CFE9DC" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+<g fill="#E9A23B"><path d="M420 120l7 18 18 7-18 7-7 18-7-18-18-7 18-7z"/><path d="M90 380l5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/><path d="M430 400l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/></g>
+<circle cx="110" cy="150" r="7" fill="#CFE9DC"/><circle cx="450" cy="270" r="5" fill="#CFE9DC"/><circle cx="150" cy="450" r="4" fill="#CFE9DC"/></svg>
